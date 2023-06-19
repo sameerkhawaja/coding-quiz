@@ -4,18 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Coding quiz</title>
 </head>
 
 <body>
     <!-- Start Quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
-    <div class="buttons">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
-    </div>
+    <header>
+        <div>
+            <span class="highscores-btn">
+                <button>View High Scores</button>
+            </span>
+            <span class="timer-container"> Timer is:  <span class="timer-content">60</span> </span> 
+        </div>
+    </header>
+    <main class="page-content" id="page-content">
+        <div class="container">
+            <h1 class="page-title centered-text">
+                Coding Quiz Challenge
+            </h3>
+            <p class="centered-text">Try to answer the following code related questions within the time limit. <br>Keep in mind that incorrect answers wil penalize your score/time by 10 seconds!</p>
+        </div>
+        <div class="start-btn container">
+            <button>Start Quiz</button>
+        </div>
+        <div class="container">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </main>
+   
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
